@@ -11,26 +11,76 @@ body {
     
 }
 
-header, ul {
+header {
     display: flex;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  
+  .nav-link ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
     color: #f9faf8;
     margin: 0;
-    width: 100vw;
-}
-
-.nav-link {
-    display: flex;
-    margin-left: auto;
-}
-
-li {
+    padding: 0;
+  }
+  
+  .nav-link ul li {
+    margin-right: 20px;
     text-decoration: none;
-    list-style: none;
-    padding:  0 16px;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header img {
+    max-height: 45px;
+    max-width: 300;
+    padding: 0;
+    margin: 0;
+
+  }
+
+ 
+
+  .welcome {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
     
 
-}
+    
+  }
 
-main {
-    display: flex;
-}
+  .start-info {
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+
+
+  .image img {
+    max-height: 300px;
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+  }
