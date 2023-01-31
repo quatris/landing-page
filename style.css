@@ -1,15 +1,12 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    
-
 }
 
 body {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    
 }
 
 header {
@@ -18,37 +15,33 @@ header {
     padding: 16px;
     width: 100vw;
     margin-left: auto;
-    
   }
 
   .logo {
     display: flex;
     justify-content: space-between;
-    
   }
 
   .nav-link {
     display: flex;
     justify-content: flex-end;
     padding: 8px 16px;
-    
-
   }
   
   .nav-link ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    color: #f9faf8;
     margin: 0;
     padding: 0;
     gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
   }
   
   a {
     text-decoration: none;
     color: inherit;
-
   }
 
   main {
@@ -63,10 +56,7 @@ header {
     max-width: 300;
     padding: 0;
     margin: 0;
-
   }
-
- 
 
   .welcome {
     display: flex;
@@ -79,8 +69,6 @@ header {
     margin: 0;
     padding-bottom: 64px;
     color: #f9faf8;
-
-    
   }
 
   .start-info {
@@ -113,4 +101,44 @@ header {
     font-weight: 900;
     color: #f9faf8;
 
+  }
+
+  .start-info p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  button {
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: inherit;
+    max-width: 120px;
+    padding: 4px 16px;
+
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+    background-color: #e5e7eb;
+    padding: 60px 0;
+  }
+
+  .quote cite {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+  }
+
+  blockquote, cite {
+    max-width: 800px;
+  }
+
+  blockquote  {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
   }
